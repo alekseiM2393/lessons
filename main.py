@@ -1,0 +1,21 @@
+grades = [[5, 3, 3, 5, 4], [2, 2, 2, 3], [4, 5, 5, 2], [4, 4, 3], [5, 5, 5, 4, 5]]
+students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}
+a=sum(grades[0])
+b=sum(grades[1])
+c=sum(grades[2])
+d=sum(grades[3])
+i=sum(grades[4])
+grades=a/5, b/5, c/5, b/5, i/5
+students=list(sorted(students))
+g1=(grades[0])
+g2=(grades[1])
+g3=(grades[2])
+g4=(grades[3])
+g5=(grades[4])
+s6=(students[0])
+s7=(students[1])
+s8=(students[2])
+s9=(students[3])
+s10=(students[4])
+evaluations=dict([[s6,g1],[s7,g2],[s8,g3],[s9,g4],[s10,g5]])
+print(evaluations)
